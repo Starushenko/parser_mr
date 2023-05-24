@@ -8,7 +8,6 @@ public class BookStatistic {
         this.topWords = topWords;
         this.uniqWords = uniqWords;
     }
-
     @Override
     public String toString() {
         return "BookStatistic{" +

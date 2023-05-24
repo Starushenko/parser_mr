@@ -14,8 +14,6 @@ public class Main {
         BookStatSerialize bookStatSerialize = new BookStatSerialize();
         System.out.println("Press any key or enter exit for EXIT");
 
-
-
         while (!scanner.next().equals(exitCmd)) {
             System.out.println("Please enter the book");
             File book = new File(PATH + scanner.next());
@@ -24,17 +22,9 @@ public class Main {
             int uniqWords = bookParser.uniqWords(words);
             BookStatistic bookStatistic = new BookStatistic(topWords, uniqWords);
             System.out.println(bookStatistic);
-
-            bookStatSerialize.serialize(bookStatistic, new File(PATH + book.getName() + "_statistic.txt"));
-
-
+            bookStatSerialize.serialize(bookStatistic, new File(PATH +"statistic_of_"+ book.getName()));
             System.out.println("Press " + exitCmd + " to exit");
-
         }
-
         scanner.close();
-
-
     }
-
 }

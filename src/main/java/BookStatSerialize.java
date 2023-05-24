@@ -8,6 +8,5 @@ public class BookStatSerialize {
         BufferedWriter writer = new BufferedWriter(new FileWriter(file));
         writer.write(book.toString());
         writer.close();
-
     }
 }

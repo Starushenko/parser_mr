@@ -23,6 +23,7 @@ public class BookParser {
         return words;
     }
 
+
     public List<String> topWords(List<String> words, int amount) {
         return words.stream().distinct()
                 .sorted(Comparator.comparingInt(word -> Collections.frequency(words, word)).reversed())
