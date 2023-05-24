@@ -1,6 +1,6 @@
+
 import java.io.*;
 import java.util.*;
-
 
 public class BookParser {
     public List<String> getText(File file) throws FileNotFoundException {
