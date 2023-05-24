@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bda44651-c6e9-4a6a-8794-838b2bdbed83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BookParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BookStatSerialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BookStatistic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/JavaCore.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/JavaCore.txt_statistic.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/java.util.stream.ReferencePipeline$3@5674cd4d_statistic.txt" afterDir="false" />
-    </list>
+    <list default="true" id="bda44651-c6e9-4a6a-8794-838b2bdbed83" name="Changes" comment="ДЗ 7. Парсер" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +15,13 @@
       <list>
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -78,6 +70,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -89,8 +82,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684933585004</updated>
-      <workItem from="1684933586472" duration="2244000" />
+      <workItem from="1684933586472" duration="2552000" />
     </task>
+    <task id="LOCAL-00001" summary="ДЗ 7. Парсер">
+      <created>1684935870025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684935870025</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ДЗ 7. Парсер">
+      <created>1684936120803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684936120803</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="ДЗ 7. Парсер" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ 7. Парсер" />
   </component>
 </project>

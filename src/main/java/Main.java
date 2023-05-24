@@ -1,3 +1,4 @@
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
@@ -22,7 +23,8 @@ public class Main {
             int uniqWords = bookParser.uniqWords(words);
             BookStatistic bookStatistic = new BookStatistic(topWords, uniqWords);
             System.out.println(bookStatistic);
-            bookStatSerialize.serialize(bookStatistic, new File(PATH +"statistic_of_"+ book.getName()));
+            bookStatSerialize.serialize(bookStatistic, new File(PATH + "statistic_of_" + book.getName()));
+
             System.out.println("Press " + exitCmd + " to exit");
         }
         scanner.close();
