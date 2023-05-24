@@ -1,5 +1,4 @@
 import java.util.List;
-
 public class BookStatistic {
     private final List<String> topWords;
     private final int uniqWords;
